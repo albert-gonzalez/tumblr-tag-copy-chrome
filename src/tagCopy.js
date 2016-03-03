@@ -40,7 +40,9 @@ function initCopyTag() {
 
 function bindReblogButtons () {
     $('.post_control.reblog:not(.tag-copy-active)').click(function () {
-        tags = $(this).closest('.post_container').find('.post_tags_inner').text().split('#');
+        tags = _.map($(this).closest('.post').find('.post_tags_inner a'), function (element) {
+            return $(element).text();
+        });
         initCopyTag();
     }).addClass('tag-copy-active');
 }
