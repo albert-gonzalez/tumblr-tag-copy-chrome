@@ -1,6 +1,6 @@
 {
   "name": "tumblr-tag-copy",
-  "version": "1.0",
+  "version": "1.0.2",
   "description": "This chrome extension copies the tags of the current reblog and paste them into tag edit field",
   "main": "src/tagCopy.js",
   "keywords": [

@@ -1,7 +1,7 @@
 var tags;
 
 function copyTags() {
-    for (var i = 1; i < tags.length; i++) {
+    for (var i = 0; i < tags.length; i++) {
         $('.editor.editor-plaintext').focus().prepend('<span>' + tags[i] + '</span>').blur();
     }
 }

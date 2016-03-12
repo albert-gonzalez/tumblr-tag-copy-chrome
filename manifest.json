@@ -3,7 +3,7 @@
 
   "name": "Tumblr Tag Copy",
   "description": "This extension copies the tags of the current reblog and paste them into tag edit field",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "options_ui": {
     "page": "templates/options.html",
     "chrome_style": true
